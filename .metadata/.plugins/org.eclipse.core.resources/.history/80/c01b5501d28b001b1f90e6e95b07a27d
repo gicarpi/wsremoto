@@ -1,0 +1,15 @@
+package br.com.bank.implementacaoo;
+
+public class TesteConta {
+	public static void main(String[] args) {
+		
+		cliente cliente = new cliente(
+				Magica.i("ID"),
+				Magica.s("Nome"),
+				Magica.s("CPF"),
+				Magica.s("Fone")
+				);
+				
+	}
+
+}

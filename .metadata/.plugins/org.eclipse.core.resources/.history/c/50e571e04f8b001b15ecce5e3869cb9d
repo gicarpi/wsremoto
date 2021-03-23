@@ -1,0 +1,14 @@
+package br.com.bankofoz.modelo;
+
+public class corrente extends conta {
+	
+	private float limite;
+	private float taxa;
+	
+	
+
+	
+	
+	
+
+}

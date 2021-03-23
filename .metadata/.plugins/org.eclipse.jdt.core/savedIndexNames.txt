@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\giova\OneDrive\Área de Trabalho\turma16c\ws\.metadata\.plugins\org.eclipse.jdt.core
+387723614.index
+3922492909.index
+1053032286.index
+1653214330.index
+2296325567.index
+819514580.index
+1826017696.index

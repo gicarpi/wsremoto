@@ -1,0 +1,33 @@
+package br.com.bank.implementacaoo;
+
+import br.com.bankofoz.modelo.cliente;
+import br.com.bankofoz.modelo.corrente;
+import br.com.bankofoz.modelo.poupanca;
+import br.com.bankofoz.util.Magica;
+
+public class TesteConta {
+	public static void main(String[] args) {
+		
+		cliente cliente = new cliente(
+				Magica.i("ID"),
+				Magica.s("Nome"),
+				Magica.s("CPF"),
+				Magica.s("Fone")
+				);
+		
+		corrente conta = new Corrente();
+		if (Magica.b("Abrir conta corrente?")==true) {
+			conta=new corrente(
+					(short) Magica.i("Numero"),
+					(byte) Magica.i("Digito"),
+					(short) Magica.i("Agencia"),
+					Magica.f("Saldo"));
+			
+		}else {
+			conta = new poupanca();
+			
+		}
+				
+	}
+
+}

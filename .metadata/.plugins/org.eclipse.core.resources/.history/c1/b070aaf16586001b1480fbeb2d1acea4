@@ -1,0 +1,54 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoEncadeada {
+
+	public static void main(String[] args) {
+
+		String disciplina = JOptionPane.showInputDialog("Digite a diciplina").toUpperCase();
+		float n1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a Nota 1"));
+		float n2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a Nota 2"));
+		float media = (n1+n2)/2;
+		float faltas = Float.parseFloat(JOptionPane.showInputDialog("Faltas"));
+
+
+		System.out.println("Média: " + media);
+		if (falta<20) {
+			if (media>=6){
+				System.out.println("Parabéns !\nAprovado na disciplina "+ disciplina);
+			}else if (media<4) {
+				System.out.println("Infelizmente você foi reprovado em " + disciplina);
+			}else {
+				System.out.println("Exame em " + disciplina);
+		}
+			else if (falta>20)
+				Sytstem.out.println(Reprovado por falta)
+		
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+}
+
+//toUpperCase() deixar tudo maiusculo 
+//double numero quebrado 3 casas decimais
+// || or       && and

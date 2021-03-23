@@ -1,0 +1,20 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio3 {
+	public static void main(String[] args) {
+		short n1 = Short.parseShort(JOptionPane.showInputDialog("Digite o primeiro numero"));
+		short n2 = Short.parseShort(JOptionPane.showInputDialog("Digite o terceiro numero"));
+		short n3 = Short.parseShort(JOptionPane.showInputDialog("Digite o terceiro numero"));
+		
+		
+		
+		
+		System.out.println("Ordem decrescente: " + 0 );
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package br.com.bankofoz.modelo;
+
+public class poupanca extends conta {
+	
+	private float rendimento;
+
+	@Override
+	public String toString() {
+		return "poupanca [rendimento=" + rendimento + ", " + super.toString() + "]";
+	}
+
+	public poupanca(short numero, byte digito, short agencia, float saldo, cliente cliente, float rendimento) {
+		super(numero, digito, agencia, saldo, cliente);
+		this.rendimento = rendimento;
+	}
+
+	public poupanca() {
+		super();
+	}
+
+	public float getRendimento() {
+		return rendimento;
+	}
+
+	public void setRendimento(float rendimento) {
+		this.rendimento = rendimento;
+	}
+	
+
+}

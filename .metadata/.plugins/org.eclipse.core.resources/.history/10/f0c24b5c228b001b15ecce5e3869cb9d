@@ -1,0 +1,15 @@
+package br.com.gama.util;
+
+public class Exercico {
+	private int id;
+	private String descrição;
+	private Fabricante fabricante;
+	private float valorVenda;
+	private float valorCompra;
+	private int qte;
+	
+	public float totalEstoqueVenda;
+	public float totalEstoqueCompra;
+	public String verificarEstoque;
+
+}

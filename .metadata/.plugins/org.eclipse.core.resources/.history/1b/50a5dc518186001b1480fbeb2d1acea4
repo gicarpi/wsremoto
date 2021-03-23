@@ -1,0 +1,26 @@
+package decisao;
+
+import java.util.Arrays;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		int n1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro numero"));
+		int n2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o terceiro numero"));
+		int n3 = Integer.parseInt(JOptionPane.showInputDialog("Digite o terceiro numero"));
+		
+		if(n1==n2 || n2==n3 || n1==n3);
+		
+		
+
+		
+		
+		
+		
+	}
+
+
+
+}

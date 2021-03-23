@@ -1,0 +1,19 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio3 {
+	public static void main(String[] args) {
+		float n1 = Float.parseFloat(JOptionPane.showInputDialog("Digite o primeiro numero"));
+		float n2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o segundo numero"));
+		short n3 = short.parseShort(JOptionPane.showInputDialog("Digite o terceiro numero"));
+		
+		
+		
+		System.out.println("Ordem decrescente: " + 0 );
+		
+		
+		
+	}
+
+}

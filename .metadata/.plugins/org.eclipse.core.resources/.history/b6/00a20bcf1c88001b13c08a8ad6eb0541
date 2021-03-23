@@ -1,0 +1,40 @@
+package br.com.gama.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.gama.modelo.Aluno;
+import br.com.gama.modelo.Endereco;
+
+public class TesteAluno {
+	
+	public static void main(String[] args) {	
+		Endereco endereco = new Endereco();
+		endereco.setLogradouro("RUA DOUTOR MANOEL DE ABRE");
+		endereco.setNumero("171");
+		endereco.setComplemento("Casa");
+		endereco.setBairro("Olimpico");
+		endereco.setCidade("SÃO CAETANO");
+		endereco.setCep("09570-360");
+			
+		Aluno aluno = new Aluno ();
+		aluno.setEmail(JOptionPane.showInputDialog("Email").toLowerCase());
+		aluno.setFone(JOptionPane.showInputDialog("Fone"));
+		aluno.setNome(JOptionPane.showInputDialog("Nome").toUpperCase());
+		aluno.setMatricula(Integer.parseInt(JOptionPane.showInputDialog("Matricula")));
+				System.out.println("Nome: "+ aluno.getNome());
+		System.out.println("Email: "+ aluno.getEmail());
+		System.out.println("Fone: "+ aluno.getFone());
+		System.out.println("Matricula: "+ aluno.getNome());
+		
+		br.com.gama.modelo.aluno aluno2 = new Aluno();
+		aluno2.setAll(
+				JOptionPane.showInputDialog("Nome 2 ").toUpperCase(),
+				Integer.parseInt(JOptionPane.showInputDialog("Matricula 2").toUpperCase()),
+				JOptionPane.showInputDialog("Email 2").toLowerCase(),
+				JOptionPane.showInputDialog("Telefeno 2"));
+		System.out.println(alun2.toString());
+		
+
+	}
+
+}

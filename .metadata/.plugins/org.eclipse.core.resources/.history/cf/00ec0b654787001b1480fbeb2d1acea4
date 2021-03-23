@@ -1,0 +1,29 @@
+package br.com.popsveiculos.modelo;
+
+public class Veiculo {
+	
+	private String montadora;
+	private float valor;
+	private short velocidadeAtual;
+	private boolean statu;
+	private short velocidadeMaxima;
+	private String modelo;
+	
+	// sintaxe dos métodos
+	
+	
+	public String retornarMontadora() {
+		return montadora;
+	}
+	public void preencherMontadora(String param) {
+		montadora = param;
+				
+	}
+	
+	
+	
+	
+	
+	
+
+}
